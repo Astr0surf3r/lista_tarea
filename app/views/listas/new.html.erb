@@ -1,0 +1,15 @@
+<h1>Listas#new</h1>
+
+<%= form_for @lista do |t| %>
+<label> Nombre:
+<%= t.text_field :nombre %>
+</label>
+<br />
+
+<label> Descripcion
+<%= t.text_field :descripcion %>
+</label> <br />
+<%= t.submit 'Inserta la lista' %>
+
+<% end %>
+<p>Find me in app/views/listas/new.html.erb</p>

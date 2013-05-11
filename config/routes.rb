@@ -1,4 +1,12 @@
 ListaTarea::Application.routes.draw do
+ # get "listas/index"
+
+ # get "listas/new"
+
+ resources :listas
+
+ root :to => "listas#index"
+ 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
